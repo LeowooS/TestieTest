@@ -1,0 +1,39 @@
+$id = get_the_id();
+
+if($id == 3400 || $id ==3530 || $id ==3532 || $id ==3900 || $id ==3531 || $id ==3529 || $id ==3528):
+?>
+<div class="button-container">
+
+	
+            <a href="https://tidyteddy.com.au/contacten/"><button class="eng_version" >中文</button></a>
+            </div>
+<?php else:?>
+<div class="button-container">
+            <a href="https://tidyteddy.com.au/contact/"><button class="chi_version" >ENG</button></a>
+            </div>
+<?php endif;?>
+<style>    
+        .eng_version {
+			width:15%;
+			height:40px;
+            margin-top:0px;
+            background-color: rgb(174, 214, 242);
+            color: white;
+            border: none;
+            border-radius: 35px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+		.chi_version{
+			width:170px;
+			heigh:50px;
+            margin-top:0px;
+            background-color: rgb(174, 214, 242);
+            color: white;
+            border: none;
+            border-radius: 35px;
+            cursor: pointer;
+            font-size: 15px;
+		}
+		
+    </style>
